@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1547AFBB2338A10200D621E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFBA2338A10200D621E9 /* AppDelegate.swift */; };
+		1547AFBD2338A10200D621E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFBC2338A10200D621E9 /* SceneDelegate.swift */; };
+		1547AFC02338A10200D621E9 /* DadJokes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFBE2338A10200D621E9 /* DadJokes.xcdatamodeld */; };
+		1547AFC22338A10200D621E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFC12338A10200D621E9 /* ContentView.swift */; };
+		1547AFC42338A10400D621E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1547AFC32338A10400D621E9 /* Assets.xcassets */; };
+		1547AFC72338A10400D621E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1547AFC62338A10400D621E9 /* Preview Assets.xcassets */; };
+		1547AFCA2338A10400D621E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1547AFC82338A10400D621E9 /* LaunchScreen.storyboard */; };
+		1547AFD22338A39600D621E9 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFD12338A39600D621E9 /* EmojiView.swift */; };
+		1547AFD62338AB3C00D621E9 /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFD42338AB3C00D621E9 /* Joke+CoreDataClass.swift */; };
+		1547AFD72338AB3C00D621E9 /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFD52338AB3C00D621E9 /* Joke+CoreDataProperties.swift */; };
+		1587034D2339F86F008CF50E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587034C2339F86F008CF50E /* AddView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1547AFB72338A10200D621E9 /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1547AFBA2338A10200D621E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1547AFBC2338A10200D621E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1547AFBF2338A10200D621E9 /* DadJokes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DadJokes.xcdatamodel; sourceTree = "<group>"; };
+		1547AFC12338A10200D621E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1547AFC32338A10400D621E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1547AFC62338A10400D621E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1547AFC92338A10400D621E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1547AFCB2338A10400D621E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1547AFD12338A39600D621E9 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		1547AFD42338AB3C00D621E9 /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1547AFD52338AB3C00D621E9 /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1587034C2339F86F008CF50E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1547AFB42338A10200D621E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1547AFAE2338A10200D621E9 = {
+			isa = PBXGroup;
+			children = (
+				1547AFB92338A10200D621E9 /* DadJokes */,
+				1547AFB82338A10200D621E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1547AFB82338A10200D621E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1547AFB72338A10200D621E9 /* DadJokes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1547AFB92338A10200D621E9 /* DadJokes */ = {
+			isa = PBXGroup;
+			children = (
+				1547AFCB2338A10400D621E9 /* Info.plist */,
+				1547AFBE2338A10200D621E9 /* DadJokes.xcdatamodeld */,
+				158703502339FEE3008CF50E /* Core Data */,
+				1587034F2339FED6008CF50E /* Additional Files */,
+				1587034E2339FEBF008CF50E /* Views */,
+				1547AFC52338A10400D621E9 /* Preview Content */,
+			);
+			path = DadJokes;
+			sourceTree = "<group>";
+		};
+		1547AFC52338A10400D621E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1547AFC62338A10400D621E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1587034E2339FEBF008CF50E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1547AFD12338A39600D621E9 /* EmojiView.swift */,
+				1587034C2339F86F008CF50E /* AddView.swift */,
+				1547AFC12338A10200D621E9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1587034F2339FED6008CF50E /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				1547AFBA2338A10200D621E9 /* AppDelegate.swift */,
+				1547AFBC2338A10200D621E9 /* SceneDelegate.swift */,
+				1547AFC32338A10400D621E9 /* Assets.xcassets */,
+				1547AFC82338A10400D621E9 /* LaunchScreen.storyboard */,
+			);
+			path = "Additional Files";
+			sourceTree = "<group>";
+		};
+		158703502339FEE3008CF50E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				1547AFD42338AB3C00D621E9 /* Joke+CoreDataClass.swift */,
+				1547AFD52338AB3C00D621E9 /* Joke+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1547AFB62338A10200D621E9 /* DadJokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1547AFCE2338A10400D621E9 /* Build configuration list for PBXNativeTarget "DadJokes" */;
+			buildPhases = (
+				1547AFB32338A10200D621E9 /* Sources */,
+				1547AFB42338A10200D621E9 /* Frameworks */,
+				1547AFB52338A10200D621E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DadJokes;
+			productName = DadJokes;
+			productReference = 1547AFB72338A10200D621E9 /* DadJokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1547AFAF2338A10200D621E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Owen Henley";
+				TargetAttributes = {
+					1547AFB62338A10200D621E9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 1547AFB22338A10200D621E9 /* Build configuration list for PBXProject "DadJokes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1547AFAE2338A10200D621E9;
+			productRefGroup = 1547AFB82338A10200D621E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1547AFB62338A10200D621E9 /* DadJokes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1547AFB52338A10200D621E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1547AFCA2338A10400D621E9 /* LaunchScreen.storyboard in Resources */,
+				1547AFC72338A10400D621E9 /* Preview Assets.xcassets in Resources */,
+				1547AFC42338A10400D621E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1547AFB32338A10200D621E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1547AFD62338AB3C00D621E9 /* Joke+CoreDataClass.swift in Sources */,
+				1547AFC02338A10200D621E9 /* DadJokes.xcdatamodeld in Sources */,
+				1547AFBB2338A10200D621E9 /* AppDelegate.swift in Sources */,
+				1547AFC22338A10200D621E9 /* ContentView.swift in Sources */,
+				1587034D2339F86F008CF50E /* AddView.swift in Sources */,
+				1547AFBD2338A10200D621E9 /* SceneDelegate.swift in Sources */,
+				1547AFD22338A39600D621E9 /* EmojiView.swift in Sources */,
+				1547AFD72338AB3C00D621E9 /* Joke+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1547AFC82338A10400D621E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1547AFC92338A10400D621E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1547AFCC2338A10400D621E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1547AFCD2338A10400D621E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1547AFCF2338A10400D621E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJokes/Preview Content\"";
+				DEVELOPMENT_TEAM = CYZA2EE6W8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DadJokes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.owenhenley.DadJokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1547AFD02338A10400D621E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJokes/Preview Content\"";
+				DEVELOPMENT_TEAM = CYZA2EE6W8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DadJokes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.owenhenley.DadJokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1547AFB22338A10200D621E9 /* Build configuration list for PBXProject "DadJokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1547AFCC2338A10400D621E9 /* Debug */,
+				1547AFCD2338A10400D621E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1547AFCE2338A10400D621E9 /* Build configuration list for PBXNativeTarget "DadJokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1547AFCF2338A10400D621E9 /* Debug */,
+				1547AFD02338A10400D621E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1547AFBE2338A10200D621E9 /* DadJokes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1547AFBF2338A10200D621E9 /* DadJokes.xcdatamodel */,
+			);
+			currentVersion = 1547AFBF2338A10200D621E9 /* DadJokes.xcdatamodel */;
+			path = DadJokes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1547AFAF2338A10200D621E9 /* Project object */;
+}
