@@ -21,25 +21,29 @@ struct ContentView: View {
     // MARK: - View
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(jokes, id: \.setup) { joke in
-                    NavigationLink(destination: Text(joke.punchline)) {
-                        HStack {
-                            EmojiView(for: joke.rating)
-                            Text(joke.setup)
-                        }
+        ZStack(alignment: .top) {
+            LinearGradient(gradient: Gradient(colors: [Color("Start"), Color("Middle"), Color("End")]), startPoint: .top, endPoint: .bottom)
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 10) {
+                    ForEach(jokes, id:\.setup) { joke in
+                        JokeCard(joke: joke)
                     }
-                }
-                .onDelete(perform: removeJokes(at:))
+                }.padding()
             }
-            .navigationBarTitle("Dad Jokes")
-            .navigationBarItems(leading: EditButton(), trailing: Button("Add") {
+            
+            Button("Add Joke") {
                 self.showingAddJoke.toggle()
-            })
-            .sheet(isPresented: $showingAddJoke) {
-                AddView().environment(\.managedObjectContext, self.moc)
             }
+            .padding()
+            .background(Color.black.opacity(0.5))
+            .clipShape(Capsule())
+            .foregroundColor(.white)
+            .offset(y: 50)
+        }
+        .edgesIgnoringSafeArea(.all)
+        .sheet(isPresented: $showingAddJoke) {
+                AddView().environment(\.managedObjectContext, self.moc)
         }
     }
     
@@ -49,8 +53,11 @@ struct ContentView: View {
             moc.delete(joke)
         }
         
-        // do-try-catch
-        try? moc.save()
+        do {
+            try moc.save()
+        } catch {
+            print("Error saving")
+        }
     }
 }
 

@@ -17,6 +17,7 @@
 		1547AFD22338A39600D621E9 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFD12338A39600D621E9 /* EmojiView.swift */; };
 		1547AFD62338AB3C00D621E9 /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFD42338AB3C00D621E9 /* Joke+CoreDataClass.swift */; };
 		1547AFD72338AB3C00D621E9 /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547AFD52338AB3C00D621E9 /* Joke+CoreDataProperties.swift */; };
+		154D95D52341244D005FC097 /* JokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154D95D42341244D005FC097 /* JokeCard.swift */; };
 		1587034D2339F86F008CF50E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587034C2339F86F008CF50E /* AddView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		1547AFD12338A39600D621E9 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		1547AFD42338AB3C00D621E9 /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
 		1547AFD52338AB3C00D621E9 /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		154D95D42341244D005FC097 /* JokeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCard.swift; sourceTree = "<group>"; };
 		1587034C2339F86F008CF50E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				1547AFD12338A39600D621E9 /* EmojiView.swift */,
 				1587034C2339F86F008CF50E /* AddView.swift */,
 				1547AFC12338A10200D621E9 /* ContentView.swift */,
+				154D95D42341244D005FC097 /* JokeCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1547AFD62338AB3C00D621E9 /* Joke+CoreDataClass.swift in Sources */,
+				154D95D52341244D005FC097 /* JokeCard.swift in Sources */,
 				1547AFC02338A10200D621E9 /* DadJokes.xcdatamodeld in Sources */,
 				1547AFBB2338A10200D621E9 /* AppDelegate.swift in Sources */,
 				1547AFC22338A10200D621E9 /* ContentView.swift in Sources */,
